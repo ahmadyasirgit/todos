@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import About from "./pages/About";
+import Counter from "./pages/Counter";
 // import {Route, Routes} from "react-router-dom"
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -15,7 +15,7 @@ function App()
             <Route path="/" element={<Home />}/>
             {/* <Route path="/home" element={<Home />}/> */}
             <Route path="/login" element={<Login />}/>
-            <Route path="/About" element={<About />}/>
+            <Route path="/counter" element={<Counter />}/>
         </Routes>
     // </Router>
     
